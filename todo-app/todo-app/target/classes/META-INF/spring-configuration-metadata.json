@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "task",
+      "type": "org.example.todoapp.TaskConfigurationProperties",
+      "sourceType": "org.example.todoapp.TaskConfigurationProperties"
+    },
+    {
+      "name": "task.template",
+      "type": "org.example.todoapp.TaskConfigurationProperties$Template",
+      "sourceType": "org.example.todoapp.TaskConfigurationProperties"
+    },
+    {
+      "name": "template",
+      "type": "org.example.todoapp.TaskConfigurationProperties$Template",
+      "sourceType": "org.example.todoapp.TaskConfigurationProperties$Template"
+    }
+  ],
+  "properties": [
+    {
+      "name": "task.template.allow-multiple-tasks",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.example.todoapp.TaskConfigurationProperties$Template"
+    },
+    {
+      "name": "template.allow-multiple-tasks",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.example.todoapp.TaskConfigurationProperties$Template"
+    }
+  ],
+  "hints": []
+}
